@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master_branch:
-      image: nc1219/mywebclass-collab:master
+      image: aaa373373/mywebclass-collab:master
       container_name: master_branch
       pull_policy: always
       restart: always
@@ -11,7 +11,7 @@ services:
       labels:
       - 'com.centurylinklabs.watchtower.enable=true'
     development_branch:
-      image: nc1219/mywebclass-collab:development
+      image: aaa373373/mywebclass-collab:development
       container_name: development_branch
       pull_policy: always
       restart: always
