@@ -9,7 +9,7 @@ on:
       - 'v*'
 
 env:
-  DOCKER_REPO_NAME: nc1219/mywebclass-collab
+  DOCKER_REPO_NAME: aaa373373/mywebclass-collab
 
 jobs:
   build:
